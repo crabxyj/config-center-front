@@ -47,7 +47,10 @@ export default {
         title: '配置信息管理',
         subs: [{
           index: 'configDataBase',
-          title: '数据库连接信息管理'
+          title: '数据库管理'
+        }, {
+          index: 'configModuleBase',
+          title: '模块数据库管理'
         }, {
           index: 'configModule',
           title: '模块配置信息'

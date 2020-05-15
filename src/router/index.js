@@ -17,7 +17,11 @@ const routes = [
       }, {
         path: '/configDataBase',
         component: () => import('../views/page/ConfigDataBase.vue'),
-        name: '数据库连接管理'
+        name: '数据库管理'
+      }, {
+        path: '/configModuleBase',
+        component: () => import('../views/page/ConfigModuleBase.vue'),
+        name: '模块数据库管理'
       }
     ]
   },
