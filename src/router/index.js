@@ -8,7 +8,14 @@ const routes = [
   {
     path: '/',
     name: 'Home',
-    component: Home
+    component: Home,
+    children: [
+      {
+        path: '/configModule',
+        component: () => import('../views/page/ConfigModule.vue'),
+        name: '模块配置信息'
+      }
+    ]
   },
   {
     path: '/about',
